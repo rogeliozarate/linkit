@@ -17,8 +17,8 @@ then
     read -p "Are you sure you want to create the hard link? [yY]" -n 1 -r
 	if [[ $REPLY =~ ^[Yy]$ ]]
 	then
-	    echo  "linking..."
 	    ln $1 $LINK
+	    echo  $APP_NAME linked
 	 else
 		echo
 		echo "Second thougts eh? at $(date)"
