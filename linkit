@@ -1,8 +1,6 @@
 #!/bin/bash
 # linkit
-# linki script
-# Rogelio Zárate 
-# i.am@rogeliozarate.com
+# linking script
 # 2015-06-20 15:35:12
 
 if [ $1 ]
